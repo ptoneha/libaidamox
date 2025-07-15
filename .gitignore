@@ -3,7 +3,7 @@ venv/
 whisper-env/
 .env/
 
-# 忽略 PyTorch 库中的巨大 DLL 和 LIB
+# 忽略 PyTorch 库中的巨大DLL 和LIB
 *.dll
 *.lib
 *.pdb
@@ -22,3 +22,14 @@ __pycache__/
 
 # 忽略 Jupyter 输出
 .ipynb_checkpoints/
+
+# 忽略TTS模型文件
+TTS/models/
+TTS/cache/
+cache/audio/
+
+# 忽略大型模型文件
+*.pt
+*.bin
+*.onnx
+*.model
