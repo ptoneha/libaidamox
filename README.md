@@ -28,7 +28,7 @@ pip install fastapi uvicorn openai-whisper pydub python-multipart python-dotenv 
 ### 1. 启动独立的Whisper服务
 
 ```bash
-python whisper_service.py
+python start_service.py
 ```
 
 服务将在 http://localhost:8000 上运行。
